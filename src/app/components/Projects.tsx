@@ -39,21 +39,6 @@ const projects = [
   }
 ];
 
-const leadership = [
-  {
-    title: 'SEO Career',
-    role: 'SEO Edge Participant',
-    period: 'July 2025 – Present',
-    description: 'Completed specialized industry training to enhance technical expertise. Engage in personalized coaching and comprehensive online training to excel in interviews and professional development'
-  },
-  {
-    title: 'Society of Hispanic Professional Engineers, UVA',
-    role: 'First Year Rep [\'23-\'24], Vice President [\'24-\'25]',
-    period: 'August 2024 – Present',
-    description: 'Lead 145+ member chapter, increasing event attendance by 30% and launching new initiatives supporting underrepresented STEM students'
-  }
-];
-
 export function Projects() {
   return (
     <div className="py-24 px-6">
@@ -93,19 +78,6 @@ export function Projects() {
           ))}
         </div>
 
-        <h3 className="text-2xl font-medium text-gray-900 mb-8">Leadership & Community</h3>
-        <div className="space-y-6">
-          {leadership.map((item, index) => (
-            <div key={index} className="bg-gray-50 rounded-lg p-6">
-              <div className="mb-2">
-                <h4 className="text-lg font-medium text-gray-900">{item.title}</h4>
-                <p className="text-sm text-gray-600">{item.role}</p>
-                <p className="text-sm text-gray-500 mb-3">{item.period}</p>
-              </div>
-              <p className="text-gray-700">{item.description}</p>
-            </div>
-          ))}
-        </div>
       </div>
     </div>
   );

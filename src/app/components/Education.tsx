@@ -14,7 +14,7 @@ export function Education() {
             <div className="flex-1">
               <h3 className="text-2xl font-medium text-gray-900 mb-1">University of Virginia</h3>
               <p className="text-gray-600 mb-2">B.S. in Computer Science</p>
-              <p className="text-sm text-gray-500 mb-4">May 2027 • GPA: 3.74</p>
+              <p className="text-sm text-gray-500 mb-4">May 2027 • GPA: 3.78</p>
               <p className="text-gray-700">Minors: Applied Mathematics, Data Science</p>
             </div>
           </div>
@@ -26,7 +26,7 @@ export function Education() {
                 <h4 className="font-medium text-gray-900">Student Organizations</h4>
               </div>
               <div className="flex flex-wrap gap-2">
-                {['Society of Hispanic Professional Engineers', 'Latin American Identities Coalition', 'Student Council Data Science Committee', 'ColorStack'].map((org) => (
+                {['Society of Hispanic Professional Engineers', 'Latin American Identities Coalition', 'Student Council Data Science Committee', 'ColorStack','Sponsors For Educational Opportunity'].map((org) => (
                   <span key={org} className="px-3 py-1.5 bg-gray-100 text-gray-700 text-sm rounded-lg">
                     {org}
                   </span>
@@ -60,7 +60,7 @@ export function Education() {
                 {[
                   'Foundations of Machine Learning',
                   'Software Development Essentials',
-                  'Computer Systems',
+                  'Computer Systems & Organization',
                   'Data Structures & Algorithms 2',
                   'Software Engineering',
                   'Computational BME',

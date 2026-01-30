@@ -4,7 +4,7 @@ const skillCategories = [
   {
     icon: Code,
     title: 'Programming & Development',
-    skills: ['Python', 'Java', 'SQL', 'Data Structures & Algorithms', 'Software Engineering']
+    skills: ['Python', 'Java', 'SQL', 'Data Structures & Algorithms', 'Software Engineering','R']
   },
   {
     icon: Database,

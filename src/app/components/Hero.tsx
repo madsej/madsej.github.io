@@ -1,5 +1,5 @@
 import { ArrowDown } from 'lucide-react';
-
+import headshot from '../../images/Headshot.jpeg';
 interface HeroProps {
   scrollToSection: (id: string) => void;
 }
@@ -8,6 +8,13 @@ export function Hero({ scrollToSection }: HeroProps) {
   return (
     <div className="min-h-screen flex items-center justify-center px-6 pt-20">
       <div className="max-w-4xl mx-auto text-center">
+        <div className="mb-6">
+          <img
+            src={headshot}
+            alt="Madison Sejas Siles"
+            className="w-32 h-32 rounded-full mx-auto border-2 border-red-900"
+          />
+        </div>
         <div className="inline-block mb-4">
           <span className="text-sm px-4 py-1.5 bg-red-50 text-red-900 rounded-full border border-red-100">
             Computer Science @ UVA
@@ -17,8 +24,7 @@ export function Hero({ scrollToSection }: HeroProps) {
           Hi, I'm Madison
         </h1>
         <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto leading-relaxed">
-          Software Engineer passionate about building impactful solutions.
-          From AI research to full-stack development, I thrive at the intersection of technology and innovation.
+          UVA Computer Science student using data, AI, and math to tackle practical problems and improve systems.
         </p>
         <div className="flex gap-4 justify-center mb-12">
           <button
