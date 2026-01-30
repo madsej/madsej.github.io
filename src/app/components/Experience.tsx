@@ -19,8 +19,8 @@ const experiences = [
     period: 'June 2025 – August 2025',
     description: [
       'Created training materials for Microsoft AI tools (AI Builder, Copilot) to help teams understand and use new AI features in daily worklows',
-      'Worked with stakeholders to understand data needs and built dashboards and analyses to support planning and decision-making for public-sector project',
-      'Built Power BI dashboards that summarized operational and financial data for senior leaders, helping teams track performance and spot trends'
+      'Worked with stakeholders to understand data needs and built PowerBI dashboards and analyses to support planning and decision-making for public-sector project',
+      'Performed applied research on internal AI assistant (Sidekick), systematically reviewing outputs for accuracy, response timing, and hallucination patterns to inform tool improvements'
     ]
   },
   {
