@@ -72,7 +72,7 @@ export function Contact() {
         <div className="mt-12 bg-red-50 border border-red-100 rounded-lg p-8 text-center">
           <h3 className="text-xl font-medium text-gray-900 mb-3">Open to Opportunities</h3>
           <p className="text-gray-700 mb-6">
-            I'm actively seeking Software Engineering internships and full-time opportunities for Summer 2026 and beyond.
+            I'm actively seeking Engineering internships and full-time opportunities for Summer 2026 and beyond.
             Let's discuss how I can contribute to your team!
           </p>
           <a
