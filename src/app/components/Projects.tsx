@@ -6,6 +6,7 @@ const projects = [
     role: 'Scrum Lead & Developer',
     period: 'September 2025 - December 2025',
     icon: Users,
+    link: 'https://rideshare-b-14-7cf1a7dbfeed.herokuapp.com/',
     description: [
       'Designed application architecture supporting user authentication, role-based access (admin/driver/rider), and persistent storage',
       'Collaborated on backend integration and ensured data integrity and accessibility compliance',
@@ -25,6 +26,33 @@ const projects = [
     ],
     tech: ['Full-Stack', 'APIs', 'CAPM', 'Data Visualization']
   },
+  {
+    title: 'Breast Cancer Diagnostic ML Model',
+    role: 'Machine Learning Developer',
+    period: 'Fall 2025',
+    icon: Activity,
+    link: 'https://www.canva.com/design/DAG5LUlxOI0/v-IN4QELI3_h5L6jjr3_ZQ/view?utm_content=DAG5LUlxOI0&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=ha504e850ed',
+    description: [
+      'Developed machine learning models to classify tumors as malignant or benign using the Breast Cancer Wisconsin Diagnostic dataset',
+      'Implemented Random Forest, Logistic Regression, and K-Means clustering with feature standardization and hyperparameter tuning',
+      'Achieved 97.37% accuracy with Random Forest and 0.995 AUC with Logistic Regression while analyzing feature importance and model ethics'
+    ],
+    tech: ['Python', 'Machine Learning', 'Random Forest', 'Logistic Regression', 'K-Means', 'Scikit-learn'],
+  },
+  {
+    title: 'Cryocompression Device for Chemotherapy-Induced Peripheral Neuropathy',
+    role: 'Engineering Designer & Researcher',
+    period: 'Spring 2024',
+    icon: Cpu,
+    link: 'https://drive.google.com/file/d/1jPzfrPeViNKLVQ6xr8SQbIOz19-iqpVo/view'
+    description: [
+      'Collaborated with clinical stakeholders to design a cryocompression device to help prevent chemotherapy-induced peripheral neuropathy (CIPN)',
+      'Conducted literature reviews and clinical research to define safety constraints, usability requirements, and treatment effectiveness',
+      'Created CAD models, technical documentation, and testing plans for a modular and cost-effective device suitable for clinical and at-home use'
+    ],
+    tech: ['Medical Device Design', 'CAD', 'User-Centered Design', 'Research', 'Testing']
+  },
+
   {
     title: 'CodePath Technical Interview Prep',
     role: 'Participant',
