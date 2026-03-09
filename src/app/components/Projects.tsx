@@ -1,5 +1,4 @@
-import { Code, Users, TrendingUp } from 'lucide-react';
-
+import { Code, Users, TrendingUp, Activity, Cpu } from 'lucide-react';
 const projects = [
   {
     title: 'Carpool Buddy Web Application',
