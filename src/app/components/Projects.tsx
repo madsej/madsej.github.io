@@ -44,7 +44,7 @@ const projects = [
     role: 'Engineering Designer & Researcher',
     period: 'Spring 2024',
     icon: Cpu,
-    link: 'https://drive.google.com/file/d/1jPzfrPeViNKLVQ6xr8SQbIOz19-iqpVo/view'
+    link: 'https://drive.google.com/file/d/1jPzfrPeViNKLVQ6xr8SQbIOz19-iqpVo/view',
     description: [
       'Collaborated with clinical stakeholders to design a cryocompression device to help prevent chemotherapy-induced peripheral neuropathy (CIPN)',
       'Conducted literature reviews and clinical research to define safety constraints, usability requirements, and treatment effectiveness',
