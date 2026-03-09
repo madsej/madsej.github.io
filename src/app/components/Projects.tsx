@@ -94,6 +94,18 @@ export function Projects() {
                   </li>
                 ))}
               </ul>
+                {/* Optional: Stylish Project Link Button */}
+                {project.link && (
+                  <a
+                    href={project.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-block mb-4 px-4 py-2 bg-red-900 text-white text-sm rounded-lg hover:bg-red-800 transition"
+                  >
+                    View Project
+                  </a>
+                )}
+              </ul>
               <div className="flex flex-wrap gap-2">
                 {project.tech.map((tech) => (
                   <span key={tech} className="px-3 py-1 bg-gray-100 text-gray-700 text-sm rounded-lg">
