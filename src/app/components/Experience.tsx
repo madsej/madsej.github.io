@@ -35,6 +35,17 @@ const experiences = [
       'Gaining access to resources such as LeetCode Premium, technical interview prep, and a supportive career network'
     ]
   },
+{
+  company: 'University of Virginia',
+  location: 'Charlottesville, VA',
+  role: 'Engineering Foundations Teaching Assistant',
+  period: 'August 2024 – December 2024',
+  description: [
+    'Guided students through technical problem-solving and analytical thinking related to programming, CAD, and system design',
+    'Assisted students with coding and debugging final projects, ensuring functional and well-structured solutions',
+    'Facilitated lab sessions emphasizing data analysis, computational modeling, and real-world engineering applications'
+  ]
+},
   {
   company: 'Deloitte',
   location: 'Rosslyn, VA',
