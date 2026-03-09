@@ -86,33 +86,36 @@ export function Projects() {
                   <p className="text-sm text-gray-500 mb-4">{project.period}</p>
                 </div>
               </div>
-              <ul className="space-y-2 mb-4">
-                {project.description.map((item, i) => (
-                  <li key={i} className="text-gray-700 flex gap-2">
-                    <span className="text-red-900 mt-1.5">▸</span>
-                    <span>{item}</span>
-                  </li>
-                ))}
-              </ul>
-                {/* Optional: Stylish Project Link Button */}
-                {project.link && (
-                  <a
-                    href={project.link}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-block mb-4 px-4 py-2 bg-red-900 text-white text-sm rounded-lg hover:bg-red-800 transition"
-                  >
-                    View Project
-                  </a>
-                )}
-              </ul>
-              <div className="flex flex-wrap gap-2">
-                {project.tech.map((tech) => (
-                  <span key={tech} className="px-3 py-1 bg-gray-100 text-gray-700 text-sm rounded-lg">
-                    {tech}
-                  </span>
-                ))}
-              </div>
+            <ul className="space-y-2 mb-4">
+              {project.description.map((item, i) => (
+                <li key={i} className="text-gray-700 flex gap-2">
+                  <span className="text-red-900 mt-1.5">▸</span>
+                  <span>{item}</span>
+                </li>
+              ))}
+            </ul>
+            
+            {project.link && (
+              <a
+                href={project.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block mb-4 px-4 py-2 bg-red-900 text-white text-sm rounded-lg hover:bg-red-800 transition"
+              >
+                View Project
+              </a>
+            )}
+            
+            <div className="flex flex-wrap gap-2">
+              {project.tech.map((tech) => (
+                <span
+                  key={tech}
+                  className="px-3 py-1 bg-gray-100 text-gray-700 text-sm rounded-lg"
+                >
+                  {tech}
+                </span>
+              ))}
+            </div>
             </div>
           ))}
         </div>
