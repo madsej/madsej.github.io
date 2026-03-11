@@ -41,6 +41,7 @@ export function Education() {
               </div>
               <ul className="space-y-2">
                 {[
+                  'AWS Cloud Cohort – Invite-Only Program (Amazon Web Services)',
                   'Undergraduate Achievement Award (UAA)',
                   'UVA McIntire School of Commerce Finance Academy Badge',
                   'Hispanic Scholarship Fund STEM Scholar (HSF)',
