@@ -19,7 +19,7 @@ const skillCategories = [
   {
     icon: Globe,
     title: 'Languages',
-    skills: ['English (Fluent)', 'Spanish (Native)', 'Quechua (Intermediate)']
+    skills: ['English (Fluent)', 'Spanish (Conversational)', 'Quechua (Intermediate)']
   }
 ];
 
